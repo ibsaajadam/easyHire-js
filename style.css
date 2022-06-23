@@ -249,12 +249,24 @@ body {
     background-color: #C4C4C4;
 }
 
+.contract {
+    background-color: #C97B84;
+}
+
 .heart {
     position: absolute;
     right: 120;
     top: 10;
     font-size: 30px;
     cursor: pointer;
+}
+
+.heart-minus {
+    display: none;
+}
+
+.heart-minus.active {
+    display: block;
 }
 
 .job-title {
@@ -315,4 +327,13 @@ body {
     transition: .5s linear;
     background-color: #000;
     color: var(--primary-color);
+}
+
+
+
+.select {
+    width: 30%;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 5px;
 }

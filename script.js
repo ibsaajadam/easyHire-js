@@ -38,3 +38,12 @@ for (i = 0; i < more.length; i++) {
         }
     });
 }
+
+
+
+// change heart icon
+$(document).ready(function () {
+    $('i').click(function () {
+        $(this).toggleClass('fa-solid fa-heart-circle-plus fa-solid fa-heart-circle-minus');
+    });
+});

@@ -47,3 +47,5 @@ $(document).ready(function () {
         $(this).toggleClass('fa-solid fa-heart-circle-plus fa-solid fa-heart-circle-minus');
     });
 });
+
+
